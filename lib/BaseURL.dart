@@ -1,0 +1,32 @@
+class URLs{
+  static String BaseURL = "https://philgenx.setupexperts.com/OurTruckApp/Driver_APIs/";
+  static String LOGIN  = "${BaseURL}driver_login.php";
+   static String Driver_detalis  = "${BaseURL}driver_detalis.php";
+   static String Driver_address  = "${BaseURL}get_address.php";
+   static String states  = "${BaseURL}get_states.php";
+   static String experience  = "${BaseURL}get_experience.php";
+   static String accident  = "${BaseURL}get_accident.php";
+   static String doc  = "${BaseURL}getdocuments.php";
+   static String traffic_citation = "${BaseURL}get_traffic_citation.php";
+   static String employment= "${BaseURL}get_employment.php";
+   static String gap = "${BaseURL}get_gap.php";
+   static String all_states ="${BaseURL}get_all_state.php";
+   static String regiater ="${BaseURL}register_driver.php";
+   static String add_address ="${BaseURL}add_address.php";
+   static String add_traffic_Cit ="${BaseURL}add_traffic_citation.php";
+   static String add_Exp ="${BaseURL}add_experience.php";
+   static String add_Emp ="${BaseURL}add_employment.php";
+   static String add_Acc ="${BaseURL}add_accident.php";
+   static String add_gap = "${BaseURL}add_gap.php";
+   static String address_update ="${BaseURL}address_update.php";
+   static String experience_update ="${BaseURL}experience_update.php";
+   static String update_accident ="${BaseURL}accident_update.php";
+   static String update_traffic_citation="${BaseURL}update_traffic_citation.php";
+   static String update_gap="${BaseURL}gap_update.php";
+   static String get_all_ques="${BaseURL}form_1_9Ques.php";
+   static String SAP="${BaseURL}sap_program.php";
+   static String Upload="${BaseURL}upload_file.php";
+  // static String ALL_FILES  = "${BaseURL}all_files";
+  // static String FILES_UPLOAD  = "${BaseURL}files_upload";
+  // static String CREATE_FOLDER  = "${BaseURL}create_folder";
+}
